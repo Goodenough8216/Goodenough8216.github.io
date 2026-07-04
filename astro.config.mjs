@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://Goodenough8216.github.io', // 换成你的网址
+	base: '/',
 	integrations: [
 		starlight({
 			title: 'My Docs',
